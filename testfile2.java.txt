@@ -1,0 +1,7 @@
+import java.io.*
+
+public stati void main ()
+{
+
+System.out.print("Hello World");
+}

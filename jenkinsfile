@@ -4,7 +4,7 @@ pipeline {
 	    stages {
 	         stage('build') {
 		           steps {
-			             echo 'Hello Praveen from git'
+			             echo 'Hello Praveen from git changed name of file'
 				               }
 					            }
 						       }

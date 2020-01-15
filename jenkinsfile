@@ -10,6 +10,7 @@ pipeline {
 						    stage('loadgroovy file ') {
 						    steps {
 						    pwd()
+						    sh " ls "
 						    echo 'groovy scripting started'
 						    						    }
 						       }

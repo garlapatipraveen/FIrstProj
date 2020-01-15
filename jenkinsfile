@@ -7,11 +7,12 @@ pipeline {
 			             echo 'Hello Praveen from git changed name of file'
 				               }
 					            }
-						    stage('load groovy file ') {
-						    
+						    stage('loadgroovy file ') {
+						    steps {
+						    echo 'groovy scripting started'
 						    def example = load "firstgroovy.groovy"
-						    
 						    }
+						       }
 						    
 						       }
 						       }

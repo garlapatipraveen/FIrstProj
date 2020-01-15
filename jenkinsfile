@@ -10,8 +10,7 @@ pipeline {
 						    stage('loadgroovy file ') {
 						    steps {
 						    echo 'groovy scripting started'
-						    example = load 'firstgroovy.groovy'
-						    }
+						    						    }
 						       }
 						    
 						       }
